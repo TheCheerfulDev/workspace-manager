@@ -23,4 +23,4 @@ function _workspace-manager-completion() {
   esac
 }
 
-complete -F _workspace-manager-completion workspace-manager
+complete -F _workspace-manager-completion wsm
