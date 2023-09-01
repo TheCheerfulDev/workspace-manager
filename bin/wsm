@@ -23,7 +23,7 @@ function completion() {
   done
   DIR=$(cd -P "$(dirname "$SOURCE")" >/dev/null 2>&1 && pwd)
 
-  cat ${DIR}/../libexec/bin/workspace-manager-completion.sh
+  cat ${DIR}/../libexec/bin/wsm-completion.sh
 
   exit 0
 }
@@ -37,7 +37,7 @@ function sourcer() {
   done
   DIR=$(cd -P "$(dirname "$SOURCE")" >/dev/null 2>&1 && pwd)
 
-  cat ${DIR}/../libexec/bin/workspace-manager-sourcer.sh
+  cat ${DIR}/../libexec/bin/wsm-sourcer.sh
 
   exit 0
 }
