@@ -103,7 +103,7 @@ sourcer)
   sourcer
   ;;
 *)
-  echo "Usage: workspace-manager.sh <command>"
+  echo "Usage: wsm <command>"
   echo ""
   echo "Commands:"
   echo "  list, ls:                 List all workspaces"
